@@ -15,7 +15,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        <main className="pt-24">{children}</main>
+        <main className="pt-24">
+          {children}
+          </main>
       </body>
     </html>
   );
