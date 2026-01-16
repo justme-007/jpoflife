@@ -1,0 +1,22 @@
+import { Inter } from "next/font/google";
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+});
+import "./globals.css";
+import Navbar from "./components/Navbar";
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>
+        <Navbar />
+        <main className="pt-24">{children}</main>
+      </body>
+    </html>
+  );
+}
