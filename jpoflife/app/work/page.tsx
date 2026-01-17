@@ -8,7 +8,7 @@ export default function WorkPage() {
         </h1>
 
         <p className="mt-8 text-lg text-[#b7c1bb] leading-relaxed">
-          This page holds the work I create — ideas refined into usable
+          This page holds the work I create, ideas refined into usable
           frameworks, and resources designed to support long-term growth.
         </p>
 
@@ -18,7 +18,7 @@ export default function WorkPage() {
           className="block mt-12 border border-[#1f3a2e] rounded-lg p-6 hover:border-[#8fa89a] transition"
         >
           <h2 className="text-xl font-medium text-[#e6e8e5]">
-            Business Strategies
+            Ebooks
           </h2>
 
           <p className="mt-3 text-[#b7c1bb] leading-relaxed">
