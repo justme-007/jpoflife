@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    <main className="h-[100svh] flex items-center justify-center bg-[#0f1713] px-6 mt-16 -translate-y-4">
+    <main className="h-[100svh] flex items-center justify-center bg-[#0f1713] px-6">
       <section className="max-w-2xl text-center">
         <h1 className="text-4xl md:text-5xl font-medium text-[#e6e8e5] leading-snug">
           Calm thinking.<br />Long-term direction.
