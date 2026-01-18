@@ -17,9 +17,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar/>
-        
-        <main className="pt-24">
+        <main className="pt-24 flex justify-center">
+          <div className="w-full max-w-5xl px-4">
           {children}
+           </div>
           </main>
       </body>
     </html>
