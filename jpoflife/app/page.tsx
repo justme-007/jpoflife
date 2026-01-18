@@ -1,8 +1,7 @@
-export default function Page() {
+export default function Home() {
   return (
-    <main className="h-[100svh] flex items-center justify-center bg-[#0f1713] px-6 pt-24">
-      <section className="max-w-2xl text-center">
-        <h1 className="text-4xl md:text-5xl font-medium text-[#e6e8e5] leading-snug">
+      <section className="space-y-6">
+        <h1 className="text-4xl font-semibold">
           Calm thinking.<br />Long-term direction.
         </h1>
 
@@ -15,6 +14,5 @@ export default function Page() {
           No noise. No rush. Just direction.
         </p>
       </section>
-    </main>
   );
 }

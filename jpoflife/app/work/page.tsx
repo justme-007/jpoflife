@@ -1,13 +1,12 @@
 import Link from "next/link";
-export default function WorkPage() {
+export default function Work() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6">
-      <div className="max-w-3xl">
-        <h1 className="text-3xl md:text-4xl font-semibold text-[#e6e8e5]">
+    <section className="space-y-6">
+        <h1 className="text-3xl font-semibold">
           Work & Resources
         </h1>
 
-        <p className="mt-8 text-lg text-[#b7c1bb] leading-relaxed">
+        <p className="text-gray-600 leading-relaxed">
           This page holds the work I create, ideas refined into usable
           frameworks, and resources designed to support long-term growth.
         </p>
@@ -34,7 +33,6 @@ export default function WorkPage() {
         <div className="mt-10 text-sm text-[#8fa89a]">
           More work will be added here over time.
         </div>
-      </div>
     </section>
   );
 }

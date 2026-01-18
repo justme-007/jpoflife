@@ -1,7 +1,6 @@
-export default function BookPage() {
+export default function Books() {
   return (
-    <section className="min-h-screen px-6 pt-24 pb-32 flex justify-center">
-      <div className="max-w-3xl">
+    <section className="space-y-6">
         {/* Title */}
         <h1 className="text-3xl md:text-4xl font-medium text-[#e6e8e5] leading-snug">
           Ebooks
@@ -18,7 +17,7 @@ export default function BookPage() {
         </p>
 
 <a
-  href="https://paystack.shop/pay/pkgkyp943w"
+  href="https://paystack.shop/pay/pgkgyp943w"
   target="_blank"
   rel="noopener noreferrer"
   style={{
@@ -65,7 +64,6 @@ export default function BookPage() {
             Purchase link coming shortly
           </p>
         </div>
-      </div>
     </section>
   );
 }
