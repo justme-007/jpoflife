@@ -1,0 +1,11 @@
+import { groq } from 'next-sanity'
+
+export const productsQuery = groq`
+  *[_type == "product"]{
+    _id,
+    name,
+    price,
+    slug,
+    image
+  }
+`
